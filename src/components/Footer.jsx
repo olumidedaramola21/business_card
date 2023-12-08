@@ -3,6 +3,7 @@ import twitterLogo from "../images/Twitter Icon.png";
 import instaLogo from "../images/Instagram Icon.png";
 import githubLogo from "../images/GitHub Icon.png";
 import facebookLogo from "../images/Facebook Icon.png";
+import linkedinLogo from "../images/Linkedin Icon.png";
 
 export default function Footer() {
     return (
@@ -11,6 +12,7 @@ export default function Footer() {
                 <img src={twitterLogo} alt="Twitter Logo" />
                 <img src={facebookLogo} alt="Facebook Logo" />
                 <img src={instaLogo} alt="Instagram Logo" />
+                <img src={linkedinLogo} alt="LinkedIn Logo" />
                 <img src={githubLogo} alt="GitHub Logo" />
             </div>
         </div>
