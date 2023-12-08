@@ -1,1 +1,25 @@
 /* Footer-jsx Styling */
+.footer--container {
+  background-color: #161619;
+  width: 317px;
+  height: 64px;
+  padding: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+  border-bottom-left-radius: 9px;
+  border-bottom-right-radius: 9px;
+  
+}
+
+/* .footer--image {
+
+} */
+
+.footer--items img {
+ /* margin: 2px 55px; */
+ height: 30px; 
+ filter: brightness(1.5);
+ margin: 15px; 
+}
