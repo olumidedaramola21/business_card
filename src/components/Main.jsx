@@ -3,7 +3,7 @@ export default function Main() {
 
         <div className="main--container">
             
-            <h3 className="main--h3 main--content">
+            <h3 className="main--heading main--content">
                 Business Card
             </h3>
             <h4 className="main--h4 main--content">
