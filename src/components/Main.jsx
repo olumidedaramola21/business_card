@@ -1,3 +1,6 @@
+import emaillogo from '../images/email.png';
+import linkedinlogo from "../images/Linkedin Icon.png";
+
 export default function Main() {
     return (
 
@@ -14,8 +17,8 @@ export default function Main() {
             </span>
 
             <div className="btn--class">
-                <button className="main--btn btn--email"><img src="{emaillogo}" className="email"/>Email</button>
-                <button className="main--btn btn--linkedin"><img src="{linkedinlogo}" className="linkedin"/>LinkedIn</button>
+                <button className="main--btn btn--email"><img src={emaillogo} className="email"/>Email</button>
+                <button className="main--btn btn--linkedin"><img src={linkedinlogo} className="linkedin"/>LinkedIn</button>
             </div>
 
             <div className="main--about-interest">
