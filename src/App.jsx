@@ -5,10 +5,12 @@ import Main from './components/Main'
 
 function App() {
         return (
-                <div>
-                <Header  />
-                <Main />
-                <Footer />
+                <div className='app--container'>
+                        <div className='app--container--two'>
+                        <Header  />
+                        <Main />
+                        <Footer />
+                </div>
                 </div>
         )
 }
