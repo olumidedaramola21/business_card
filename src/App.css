@@ -11,24 +11,129 @@ body {
 .app--container {
   border-radius: 10px;
   margin: 20px auto;
-  background-color: 
-  #1A1B21;
-  width: 517px;
-  height: 845px;
+  background-color: #23252C;
+  width: 550px;
+  height: 868px;
   padding: 20px 10px;
-  margin:20px auto ;
-  
+  margin:20px auto ; 
 }
 
 .app--container--two {
   border-radius: 10px;
-  margin: 20px auto;
+  margin: auto;
+  background-color: 
+  #1A1B21;
+  width: 317px;
+  height: 780px;
   box-shadow: 5px 5px 5px 5px rgba(31, 30, 30, 0.233);
 
 
 }
 
+/* Header-jsx Styling */
+.header--container > img {
+width: 317px;
+height: 317px;
+border-radius: 10px, 10px, 0px, 0px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
 /* Main-jsx Styling */
+.main--content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Inter;
+}
+
+.main--heading {
+  font-size: 25px;
+  font-weight: 700;
+  margin: 20px 0px 0px 0px;
+  color: rgba(255, 255, 255, 1);
+  /* text-align: center; */
+  line-height: 30.26px;
+
+}
+
+.main--h4 {
+  font-size: 15px;
+  font-weight: 400;
+  margin: 3px;
+  color: rgba(243, 191, 153, 1);
+  /* text-align: center; */
+  line-height: 15.49px;
+  
+}
+
+.main--span {
+  font-size: 12px;
+  font-weight: 400;
+  margin: 10px;
+  color: rgba(245, 245, 245, 1);
+  display: flex;
+  justify-content: center;
+  line-height: 15.36px;
+}
+
+.btn--class {
+  display: flex;
+  padding: 20px 10px;
+  justify-content: center;
+}
+
+.main--btn {
+  width: 247px;
+  height: 34px;
+  /* padding: 9px, 13px, 9px, 11px; */
+  border-radius: 6px;
+  border: none;
+  outline: none;
+}
+
+.btn--email {
+  background-color: white;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+}
+
+.email {
+  padding: 0px 10px;
+}
+
+.main--about-interest {
+  font-family: Inter;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 15px;
+}
+
+.main--about-interest > h3 {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  
+}
+
+.main--about-interest > p {
+  font-family: Inter;
+font-size: 10px;
+font-weight: 400;
+line-height: 15px;
+letter-spacing: 0em;
+text-align: left;
+}
 
 
 
